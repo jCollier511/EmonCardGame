@@ -419,6 +419,174 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1612121009
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 108343223119728001, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: The creature's stony hide hardens, reducing all incoming damage by 1
+        for this turn.
+      objectReference: {fileID: 0}
+    - target: {fileID: 556328833952588291, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Stone
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 307
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1202195759824117301, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Adamant Plating
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583512750838341771, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: StoneBeak
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722905369858634560, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Beak Rend
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435592786243037549, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: spec
+      value: 
+      objectReference: {fileID: 11400000, guid: 6d707165754189964a5350df509efc0b, type: 2}
+    - target: {fileID: 3427611172584362356, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935353211781258494, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811194837558257901, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5904059128270628121, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053845824955463879, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4271775954599680214, guid: cca75a028cf8a1424bf8fe61112d2595, type: 3}
+    - target: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_Name
+      value: CardSinglePrefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703928736855601057, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: The Ore-Griffin strikes with its formidable beak, dealing 4 damage and
+        ignoring 2 points of the target's armor or defensive buffs.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788257834407483766, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398017752203003617, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: A majestic construct of geological power, its robust body and wings
+        are crafted from ancient stone and gleaming metallic ore. This medium-stage
+        evolution combines formidable aerial agility with crushing physical might.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8318843613365421493, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1616869929830285405, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 669937658555922123, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 450028502858252234, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 2760252924342324020, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 8782898330588485453, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3010424236340288912, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 859029051390693110, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3361575699816586199, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3407834200853725576, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 5725211751193548613, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 5142806660986700942, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3701000272930366913, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 4220782422627711482, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
 --- !u!1001 &2043382130
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -427,6 +595,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 108343223119728001, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: The creature's stony hide temporarily hardens, reducing all incoming
+        damage by 2 for one turn.
+      objectReference: {fileID: 0}
+    - target: {fileID: 556328833952588291, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Earth
+      objectReference: {fileID: 0}
     - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -441,7 +618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -437
+      value: -263
       objectReference: {fileID: 0}
     - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
       propertyPath: m_LocalPosition.y
@@ -483,13 +660,64 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1202195759824117301, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Stone Skin
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583512750838341771, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Stonebeak
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722905369858634560, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Rocky Gale
+      objectReference: {fileID: 0}
     - target: {fileID: 2435592786243037549, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
       propertyPath: spec
       value: 
       objectReference: {fileID: 11400000, guid: 9ec411b4bd172ee72859f326c9292fe8, type: 2}
+    - target: {fileID: 3427611172584362356, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935353211781258494, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811194837558257901, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5904059128270628121, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053845824955463879, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2767925978640626341, guid: cc4ba84e03c63d344b3ea309829efe32, type: 3}
     - target: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
       propertyPath: m_Name
       value: CardSinglePrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703928736855601057, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: The creature flaps its broad, heavy wings, sending forth a gust of wind
+        and small stone fragments that deal 4 damage to all opposing creatures.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788257834407483766, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398017752203003617, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: ' This adolescent beast is characterized by its substantial, swan-like
+        body and formidable, sharply hooked beak. Its form is intricately composed
+        of rough, interlocked plates of heavy stone and metallic ore.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8318843613365421493, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -543,3 +771,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 214601145}
   - {fileID: 2043382130}
+  - {fileID: 1612121009}

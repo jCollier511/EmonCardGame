@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06284dd07670fddb9a419f11d5c38b4a, type: 3}
+  m_Name: Stonebeak_2
+  m_EditorClassIdentifier: Assembly-CSharp::CreatureSpec
+  creatureName: StoneBeak
+  description: A majestic construct of geological power, its robust body and wings
+    are crafted from ancient stone and gleaming metallic ore. This medium-stage evolution
+    combines formidable aerial agility with crushing physical might.
+  characterArt: {fileID: 4271775954599680214, guid: cca75a028cf8a1424bf8fe61112d2595, type: 3}
+  evolveLevel: 2
+  baseAttack: 7
+  baseHealth: 9
+  baseManaCost: 7
+  element: Stone
+  sub_element: 
+  ability1:
+    name: Beak Rend
+    description: The Ore-Griffin strikes with its formidable beak, dealing 4 damage
+      and ignoring 2 points of the target's armor or defensive buffs.
+    isAttack: 1
+    isSpecial: 0
+    baseManaCost: 6
+    baseDamage: 4
+  ability2:
+    name: Adamant Plating
+    description: The creature's stony hide hardens, reducing all incoming damage
+      by 1 for this turn.
+    isAttack: 0
+    isSpecial: 1
+    baseManaCost: 3
+    baseDamage: 0

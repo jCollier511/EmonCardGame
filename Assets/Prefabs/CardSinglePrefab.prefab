@@ -150,7 +150,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 1
+  m_overflowMode: 3
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
@@ -329,7 +329,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 1
+  m_overflowMode: 3
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
@@ -837,7 +837,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 1
+  m_overflowMode: 3
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
@@ -1106,7 +1106,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 1
+  m_overflowMode: 3
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
@@ -1285,7 +1285,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 1
+  m_overflowMode: 3
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
@@ -1464,7 +1464,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 1
+  m_overflowMode: 3
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
@@ -1643,7 +1643,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 1
+  m_overflowMode: 3
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
@@ -2270,7 +2270,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 1
+  m_overflowMode: 3
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
@@ -2524,8 +2524,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af1e8e3d194154f568711f5b589caec1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CardView
+  stars_1: {fileID: 1910469258818247205, guid: 6571698b896e0c114a387b884034da68, type: 3}
+  stars_2: {fileID: 3246874405919910853, guid: 028d98e8f4b1b68958703fcac74caa04, type: 3}
+  stars_3: {fileID: 1914231475986314436, guid: 19c522089be9350499678a474d5d7326, type: 3}
   spec: {fileID: 0}
   artImage: {fileID: 6053845824955463879}
+  starsImage: {fileID: 3196293959107783925}
   blankImage: {fileID: 3083334475944901266}
   titleText: {fileID: 1583512750838341771}
   costText: {fileID: 8318843613365421493}
@@ -2536,7 +2540,7 @@ MonoBehaviour:
   A1DescText: {fileID: 6703928736855601057}
   A1CostText: {fileID: 3935353211781258494}
   A2TitleText: {fileID: 1202195759824117301}
-  A2DescText: {fileID: 1202195759824117301}
+  A2DescText: {fileID: 108343223119728001}
   A2CostText: {fileID: 5904059128270628121}
   Passive1Text: {fileID: 7398017752203003617}
   Passive2Text: {fileID: 6788257834407483766}
@@ -2690,7 +2694,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 1
+  m_overflowMode: 3
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0

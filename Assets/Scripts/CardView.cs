@@ -4,11 +4,17 @@ using TMPro;
 
 public class CardView : MonoBehaviour
 {
+    public Sprite stars_1;
+    public Sprite stars_2;
+    public Sprite stars_3;
+    //
+    [Header("Spec SO")]
     [SerializeField] private CreatureSpec spec;
     
     [Header("Wiring")]
     [SerializeField] private SpriteRenderer artImage;
-    [SerializeField] private SpriteRenderer blankImage;
+    [SerializeField] private SpriteRenderer starsImage;
+    [SerializeField] private SpriteRenderer blankImage;    
     //
     [SerializeField] private TMP_Text titleText;
     [SerializeField] private TMP_Text costText;
@@ -27,6 +33,12 @@ public class CardView : MonoBehaviour
     [SerializeField] private TMP_Text Passive1Text;
     [SerializeField] private TMP_Text Passive2Text;
 
+#if UNITY_EDITOR
+    void OnValidate() {
+        if (!Application.isPlaying && spec)
+            Bind(spec);
+    }
+#endif
 
     void Start() {
         Debug.Log("CardView Start");        
@@ -44,38 +56,54 @@ public class CardView : MonoBehaviour
     
     public void Bind(CreatureSpec spec) {
         if (spec == null) return;
+        // art
+        artImage.sprite = spec.characterArt;
+        if (spec.evolveLevel == 1) {
+            starsImage.sprite = stars_1;
+        } else if (spec.evolveLevel == 2) {
+            starsImage.sprite = stars_2;
+        } else {
+            starsImage.sprite = stars_3;
+        }
+            
         // Top info
-        if (titleText)  titleText.text  = spec.creatureName;
-        if (costText)   costText.text   = spec.baseManaCost.ToString();
-        if (elementText) elementText.text = spec.element;
-        if (typeText)   typeText.text   = spec.sub_element;
-        // Base stats
-        if (AtkDmgText) AtkDmgText.text = spec.baseAttack.ToString();
+        titleText.text  = spec.creatureName;
+        costText.text   = spec.baseManaCost.ToString();
+        elementText.text = spec.element;
+        typeText.text   = spec.sub_element;
+
         // Ability 1
+        AtkDmgText.text = spec.baseAttack.ToString();
         if (spec.ability1 != null) {
-            if (A1TitleText) A1TitleText.text = spec.ability1.name;
-            if (A1DescText)  A1DescText.text  = spec.ability1.description;
-            if (A1CostText)  A1CostText.text  = spec.ability1.baseManaCost.ToString();
+            A1TitleText.text = spec.ability1.name;
+            A1DescText.text  = spec.ability1.description;
+            A1CostText.text  = spec.ability1.baseManaCost.ToString();
         }
         else {
-            if (A1TitleText) A1TitleText.text = string.Empty;
-            if (A1DescText)  A1DescText.text  = string.Empty;
-            if (A1CostText)  A1CostText.text  = string.Empty;
+            A1TitleText.text = "";
+            A1DescText.text  = "";
+            A1CostText.text  = "";
         }
+        Debug.Log("A");
+
         // Ability 2
         if (spec.ability2 != null) {
-            if (A2TitleText) A2TitleText.text = spec.ability2.name;
-            if (A2DescText)  A2DescText.text  = spec.ability2.description;
-            if (A2CostText)  A2CostText.text  = spec.ability2.baseManaCost.ToString();
+            Debug.Log("a " +spec.ability2.name);
+            Debug.Log("1 " +A2TitleText.text);
+            A2TitleText.text = spec.ability2.name;
+            Debug.Log("2 " +A2TitleText.text);
+            A2DescText.text  = spec.ability2.description;
+            A2CostText.text  = spec.ability2.baseManaCost.ToString();
         }
         else {
-            if (A2TitleText) A2TitleText.text = string.Empty;
-            if (A2DescText)  A2DescText.text  = string.Empty;
-            if (A2CostText)  A2CostText.text  = string.Empty;
+            A2TitleText.text = "";
+            A2DescText.text  = "";
+            A2CostText.text  = "";
         }
+
         // Passives / description (map to your layout as desired)
-        if (Passive1Text) Passive1Text.text = spec.description;
-        if (Passive2Text) Passive2Text.text = string.Empty;
+        Passive1Text.text = spec.description;
+        Passive2Text.text = "";
     }
     
 }

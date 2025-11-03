@@ -24,17 +24,17 @@ MonoBehaviour:
   element: Earth
   sub_element: 
   ability1:
-    name: Stone Skin
-    description: The creature's stony hide temporarily hardens, reducing all incoming
-      damage by 2 for one turn.
+    name: Rocky Gale
+    description: The creature flaps its broad, heavy wings, sending forth a gust
+      of wind and small stone fragments that deal 4 damage to all opposing creatures.
     isAttack: 1
     isSpecial: 0
     baseManaCost: 3
     baseDamage: 7
   ability2:
-    name: Rocky Gale
-    description: The creature flaps its broad, heavy wings, sending forth a gust
-      of wind and small stone fragments that deal 4 damage to all opposing creatures.
+    name: Stone Skin
+    description: The creature's stony hide temporarily hardens, reducing all incoming
+      damage by 2 for one turn.
     isAttack: 0
     isSpecial: 1
     baseManaCost: 7
