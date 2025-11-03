@@ -22,6 +22,7 @@ public class CreatureSpec : ScriptableObject
     public Ability ability1;
     public Ability ability2;
 
+    [System.Serializable]
     public class Ability {
         public string name;
         public string description;
