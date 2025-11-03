@@ -1,0 +1,100 @@
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
+public class CardView : MonoBehaviour
+{
+    [SerializeField] private CreatureSpec spec;
+    
+    [Header("Wiring")]
+    //
+    private Image artImage;    
+    private Image blankImage;
+    //
+    private TMP_Text titleText;
+    private TMP_Text costText;
+    private TMP_Text elementText;
+    private TMP_Text typeText;
+    //
+    private TMP_Text AtkDmgText;
+    private TMP_Text A1TitleText;
+    private TMP_Text A1DescText;
+    private TMP_Text A1CostText;
+    //
+    private TMP_Text A2TitleText;
+    private TMP_Text A2DescText;
+    private TMP_Text A2CostText;
+    //
+    private TMP_Text Passive1Text;
+    private TMP_Text Passive2Text;
+
+
+    void Start() {
+        Debug.Log("CardView Start");        
+        if (spec) {
+            Debug.Log("UOFDBEUBFBOUE");
+            Bind(spec);
+        }
+    }
+
+    public void SetSpec(CreatureSpec newSpec) {
+        spec = newSpec;
+        Bind(spec);
+    }
+
+    
+    public void Bind(CreatureSpec spec) {
+        if (spec == null) {
+            Debug.Log("NNOOOO");
+            return;
+        }
+
+        // Top info
+        transform.Find("Internals/Title").GetComponent<TMP_Text>().text  = spec.creatureName;
+        costText.text   = spec.baseManaCost.ToString();
+        elementText.text = spec.element;
+        typeText.text   = spec.sub_element;
+
+        // Base stats
+        AtkDmgText.text = spec.baseAttack.ToString();
+
+        // Ability 1
+        if (spec.ability1 != null)
+        {
+            A1TitleText.text = spec.ability1.name;
+            A1DescText.text  = spec.ability1.description;
+            A1CostText.text  = spec.ability1.baseManaCost.ToString();
+        }
+        else
+        {
+            A1TitleText.text = string.Empty;
+            A1DescText.text  = string.Empty;
+            A1CostText.text  = string.Empty;
+        }
+
+        // Ability 2
+        if (spec.ability2 != null)
+        {
+            if (A2TitleText) A2TitleText.text = spec.ability2.name;
+            if (A2DescText)  A2DescText.text  = spec.ability2.description;
+            if (A2CostText)  A2CostText.text  = spec.ability2.baseManaCost.ToString();
+        }
+        else
+        {
+            if (A2TitleText) A2TitleText.text = string.Empty;
+            if (A2DescText)  A2DescText.text  = string.Empty;
+            if (A2CostText)  A2CostText.text  = string.Empty;
+        }
+
+        // Passives / description (map to your layout as desired)
+        if (Passive1Text) Passive1Text.text = spec.description;
+        if (Passive2Text) Passive2Text.text = string.Empty;
+
+        // Images
+        if (artImage)
+        {
+            artImage.sprite = spec.characterArt;
+            artImage.enabled = spec.characterArt != null;
+        }
+    }
+}

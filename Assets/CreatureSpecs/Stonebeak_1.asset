@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06284dd07670fddb9a419f11d5c38b4a, type: 3}
+  m_Name: Stonebeak_1
+  m_EditorClassIdentifier: Assembly-CSharp::CreatureSpec
+  creatureName: Stonebeak
+  description: ' This adolescent beast is characterized by its substantial, swan-like
+    body and formidable, sharply hooked beak. Its form is intricately composed of
+    rough, interlocked plates of heavy stone and metallic ore.'
+  characterArt: {fileID: 2767925978640626341, guid: cc4ba84e03c63d344b3ea309829efe32, type: 3}
+  evolveLevel: 1
+  baseAttack: 6
+  baseHealth: 7
+  baseManaCost: 5
+  element: Earth
+  sub_element: 

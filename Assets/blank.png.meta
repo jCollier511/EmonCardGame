@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8eee4d207444fac4799277710c399922
+guid: 5bc1bc8b9fdc0ff789f2ef57cb450935
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4620370243558722729
-    second: water_Que-Rhea_3_0
+      213: -2720922381176439266
+    second: blank_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: water_Que-Rhea_3_0
+      name: blank_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 1024
+        x: 20
+        y: 41
+        width: 979
+        height: 1658
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ac4a1ab14ade1040800000000000000
-      internalID: 4620370243558722729
+      spriteID: e1e7198a2875d3ad0800000000000000
+      internalID: -2720922381176439266
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      water_Que-Rhea_3_0: 4620370243558722729
+      blank_0: -2720922381176439266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
