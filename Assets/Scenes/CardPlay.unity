@@ -1,0 +1,1067 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 1
+    m_PVRFilteringGaussRadiusAO: 1
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &907233398 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+  m_PrefabInstance: {fileID: 1587977650}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &907233399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907233398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a89f8d54c08184c9268131db6a03f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  rb: {fileID: 907233402}
+  speed: 10
+  PlayField: {x: 3, y: 176, z: 0}
+  isPlaced: 0
+--- !u!50 &907233402
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907233398}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &907233403
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907233398}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.27885056, y: -0.83652115}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 91.90586, y: 161.06128}
+  m_EdgeRadius: 0
+--- !u!1 &1313963389 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+  m_PrefabInstance: {fileID: 1834596447}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1313963390
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313963389}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.27885056, y: -0.83652115}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 91.90586, y: 161.06128}
+  m_EdgeRadius: 0
+--- !u!50 &1313963391
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313963389}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1313963392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313963389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a89f8d54c08184c9268131db6a03f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  rb: {fileID: 1313963391}
+  speed: 10
+  PlayField: {x: 3, y: 176, z: 0}
+  isPlaced: 0
+--- !u!1 &1441639035 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+  m_PrefabInstance: {fileID: 1992026203}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1441639036
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441639035}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.27885056, y: -0.83652115}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 91.90586, y: 161.06128}
+  m_EdgeRadius: 0
+--- !u!50 &1441639037
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441639035}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1441639038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441639035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66a89f8d54c08184c9268131db6a03f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  rb: {fileID: 1441639037}
+  speed: 10
+  PlayField: {x: 3, y: 176, z: 0}
+  isPlaced: 0
+--- !u!1001 &1587977650
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 108343223119728001, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: The creature's stony hide temporarily hardens, reducing all incoming
+        damage by 2 for one turn.
+      objectReference: {fileID: 0}
+    - target: {fileID: 556328833952588291, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Earth
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1202195759824117301, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Stone Skin
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583512750838341771, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Stonebeak
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722905369858634560, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Rocky Gale
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435592786243037549, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: spec
+      value: 
+      objectReference: {fileID: 11400000, guid: 9ec411b4bd172ee72859f326c9292fe8, type: 2}
+    - target: {fileID: 3427611172584362356, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935353211781258494, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811194837558257901, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5904059128270628121, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053845824955463879, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2767925978640626341, guid: cc4ba84e03c63d344b3ea309829efe32, type: 3}
+    - target: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_Name
+      value: CardSinglePrefabWITHMOVEMENT
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_TagString
+      value: Card
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703928736855601057, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: The creature flaps its broad, heavy wings, sending forth a gust of wind
+        and small stone fragments that deal 4 damage to all opposing creatures.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788257834407483766, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398017752203003617, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: ' This adolescent beast is characterized by its substantial, swan-like
+        body and formidable, sharply hooked beak. Its form is intricately composed
+        of rough, interlocked plates of heavy stone and metallic ore.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8318843613365421493, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 907233399}
+    - targetCorrespondingSourceObject: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 907233402}
+    - targetCorrespondingSourceObject: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 907233403}
+    - targetCorrespondingSourceObject: {fileID: 1616869929830285405, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 669937658555922123, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 450028502858252234, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 2760252924342324020, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 8782898330588485453, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3010424236340288912, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 859029051390693110, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3361575699816586199, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3407834200853725576, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 5725211751193548613, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 5142806660986700942, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3701000272930366913, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 4220782422627711482, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+--- !u!1 &1632359815
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1632359818}
+  - component: {fileID: 1632359817}
+  - component: {fileID: 1632359816}
+  - component: {fileID: 1632359819}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1632359816
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632359815}
+  m_Enabled: 1
+--- !u!20 &1632359817
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632359815}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 300
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1632359818
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632359815}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: 176, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1632359819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632359815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
+--- !u!1001 &1834596447
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 108343223119728001, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: The creature's stony hide temporarily hardens, reducing all incoming
+        damage by 2 for one turn.
+      objectReference: {fileID: 0}
+    - target: {fileID: 556328833952588291, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Earth
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -106.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1202195759824117301, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Stone Skin
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583512750838341771, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Stonebeak
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722905369858634560, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Rocky Gale
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435592786243037549, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: spec
+      value: 
+      objectReference: {fileID: 11400000, guid: 9ec411b4bd172ee72859f326c9292fe8, type: 2}
+    - target: {fileID: 3427611172584362356, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935353211781258494, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811194837558257901, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5904059128270628121, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053845824955463879, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2767925978640626341, guid: cc4ba84e03c63d344b3ea309829efe32, type: 3}
+    - target: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_Name
+      value: CardSinglePrefabWITHMOVEMENT (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_TagString
+      value: Card
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703928736855601057, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: The creature flaps its broad, heavy wings, sending forth a gust of wind
+        and small stone fragments that deal 4 damage to all opposing creatures.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788257834407483766, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398017752203003617, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: ' This adolescent beast is characterized by its substantial, swan-like
+        body and formidable, sharply hooked beak. Its form is intricately composed
+        of rough, interlocked plates of heavy stone and metallic ore.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8318843613365421493, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1313963392}
+    - targetCorrespondingSourceObject: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1313963391}
+    - targetCorrespondingSourceObject: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1313963390}
+    - targetCorrespondingSourceObject: {fileID: 1616869929830285405, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 669937658555922123, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 450028502858252234, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 2760252924342324020, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 8782898330588485453, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3010424236340288912, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 859029051390693110, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3361575699816586199, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3407834200853725576, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 5725211751193548613, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 5142806660986700942, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3701000272930366913, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 4220782422627711482, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+--- !u!1001 &1992026203
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 108343223119728001, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: The creature's stony hide temporarily hardens, reducing all incoming
+        damage by 2 for one turn.
+      objectReference: {fileID: 0}
+    - target: {fileID: 556328833952588291, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Earth
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 114.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732963186113242027, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1202195759824117301, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Stone Skin
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583512750838341771, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Stonebeak
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722905369858634560, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: Rocky Gale
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435592786243037549, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: spec
+      value: 
+      objectReference: {fileID: 11400000, guid: 9ec411b4bd172ee72859f326c9292fe8, type: 2}
+    - target: {fileID: 3427611172584362356, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935353211781258494, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5811194837558257901, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5904059128270628121, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053845824955463879, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2767925978640626341, guid: cc4ba84e03c63d344b3ea309829efe32, type: 3}
+    - target: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_Name
+      value: CardSinglePrefabWITHMOVEMENT (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_TagString
+      value: Card
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703928736855601057, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: The creature flaps its broad, heavy wings, sending forth a gust of wind
+        and small stone fragments that deal 4 damage to all opposing creatures.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788257834407483766, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398017752203003617, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: ' This adolescent beast is characterized by its substantial, swan-like
+        body and formidable, sharply hooked beak. Its form is intricately composed
+        of rough, interlocked plates of heavy stone and metallic ore.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8318843613365421493, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      propertyPath: m_text
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1441639038}
+    - targetCorrespondingSourceObject: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1441639037}
+    - targetCorrespondingSourceObject: {fileID: 6630995417160282097, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1441639036}
+    - targetCorrespondingSourceObject: {fileID: 1616869929830285405, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 669937658555922123, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 450028502858252234, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 2760252924342324020, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 8782898330588485453, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3010424236340288912, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 859029051390693110, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3361575699816586199, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3407834200853725576, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 5725211751193548613, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 5142806660986700942, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 3701000272930366913, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 4220782422627711482, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: c0a0dcd892239e6239ae9293ff86d324, type: 3}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 1632359818}
+  - {fileID: 1587977650}
+  - {fileID: 1992026203}
+  - {fileID: 1834596447}
