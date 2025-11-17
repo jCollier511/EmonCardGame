@@ -24,20 +24,24 @@ public class BouncyJiggle : MonoBehaviour
     void Update()
     {
 
-        CardPlaced();
+        if (CardPlaced())
+            return;
 
     }
 
     private void OnMouseOver()
     {
-        CardPlaced();
+
+        if (CardPlaced())
+            return;
+
 
         //When mouse is over, make card jiggle
 
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Collider2D hit = Physics2D.OverlapPoint(mousePos);
 
-        if (hit != null && hit.gameObject == gameObject)
+        if (hit != null && hit.gameObject == gameObject) 
         {
             float rotation = 1f * Mathf.Sin(Time.time * speed);
             rb.MoveRotation(rotation);
@@ -47,13 +51,17 @@ public class BouncyJiggle : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        CardPlaced();
+        if (CardPlaced())
+            return;
+
         IncreaseScale(true);
     }
 
     private void OnMouseExit()
     {
-        CardPlaced();
+        if(CardPlaced())
+            return;
+
         IncreaseScale(false);
     }
 
@@ -93,14 +101,16 @@ public class BouncyJiggle : MonoBehaviour
         }
     }
 
-    // UNFINISHED ///////////////////////////////////////////////////////////////////////////
-    void CardPlaced()
+    // can only use return in C# to exit the function its currently in
+    bool CardPlaced()
     {
         // Logic for when a card is placed in the play field
-        if (transform.position == PlayField)
+        if (isPlaced)
         {
-            return; // Do not jiggle if in play field
+            Debug.Log("Card is in play.");
+            return true;
         }
+        return false;
     }
 
 }
